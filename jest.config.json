@@ -1,0 +1,12 @@
+{
+  "moduleFileExtensions": ["ts", "js", "json"],
+  "preset": "ts-jest",
+  "rootDir": ".",
+  "testMatch": [
+    "**/+(*.)+(spec).+(ts)$"
+  ],
+  "transformIgnorePatterns": [
+    "node_modules/(?!.*\\.mjs$"
+  ],
+  "testEnvironment": "node"
+}

@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "**/node_modules/**"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts"
+      ],
+      "parserOptions": {
+        "project": {
+          "tsconfig.json"
+        },
+        "createDefaultProgram": true
+      },
+      "extends": [
+        "prettier",
+        "plugin:prettier/recommended",
+        "plugin:unicorn",
+        "plugin:prefer-arrow",
+        "plugin:import"
+      ]
+    }
+  ]
+}
